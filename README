@@ -1,0 +1,27 @@
+Status: Image is up to date for codekitchen/dinghy-http-proxy:2.5
+5d5839459fe6498f82ac3991fa0d80fb0530ec5bd8c3bc9fac775f5aeea35389
+   VM: running
+  NFS: running
+ FSEV: running
+  DNS: running
+PROXY: running
+
+To connect the Docker client to the Docker daemon, please set these environment variables.
+You can set them by running:
+    eval $(dinghy env)
+It's recommended to add this to your shell config such as ~/.bash_profile
+
+    export DOCKER_HOST=tcp://192.168.64.4:2376
+    export DOCKER_CERT_PATH=/Users/mhuynh/.docker/machine/machines/dinghy
+    export DOCKER_TLS_VERIFY=1
+    export DOCKER_MACHINE_NAME=dinghy
+MacBook-Pro:Library mhuynh$ dinghy create --provider=xhyve --cpus=4 --memory=4096
+MacBook-Pro:Library mhuynh$  sudo chmod u+s /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+MacBook-Pro:Library mhuynh$   sudo chown root:wheel /usr/local/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+MacBook-Pro:Library mhuynh$ ls ~/Library/Saved Application State/org.VirtualBox.app.VirtualBcls cox.SavedState
+(reverse-i-search)`bre':  brew link --overwrite docker-machine-driver-xhyve
+(reverse-i-search)`bre': brew install docker-machine-nfs xhyve docker-machine-driver-xhyve
+(reverse-i-search)`bre': brew install docker docker-machine
+(reverse-i-search)`bre': brew install dinghy
+(reverse-i-search)`bre': brew tap codekitchen/dinghy
+(reverse-i-search)`bre': brew install ffmpeg youtube-dl
