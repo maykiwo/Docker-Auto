@@ -24,4 +24,3 @@ MacBook-Pro:Library mhuynh$ ls ~/Library/Saved Application State/org.VirtualBox.
 (reverse-i-search)`bre': brew install docker docker-machine
 (reverse-i-search)`bre': brew install dinghy
 (reverse-i-search)`bre': brew tap codekitchen/dinghy
-(reverse-i-search)`bre': brew install ffmpeg youtube-dl
